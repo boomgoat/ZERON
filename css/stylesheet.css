@@ -1,0 +1,13 @@
+@media (min-width: @screen-sm-min) {
+
+    }
+
+@media (min-width: @screen-md-min) {
+  *{
+    border: 2px solid black;
+  }
+    }
+
+@media (min-width: @screen-lg-min) {
+
+    }
