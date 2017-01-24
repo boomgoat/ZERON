@@ -1,7 +1,7 @@
 @media (max-width: 700px) {
 
-*{
-  border: 2px solid black;
+#navbar{
+  display: none;
 }
 
 }
@@ -15,12 +15,19 @@ body{
   background: white;
 }
 
+  .container-fluid{
+    background: rgba(0, 0, 0, 0.7);
+  }
+
   #navbar{
-    background: rgba(0, 0, 0, 0.8);
     height: 5em;
     text-align: center;
     position: fixed;
     z-index: 55;
+  }
+
+  .background{
+    background: rgba(0, 0, 0, 0.8);
   }
 
   #navbar h5{
@@ -100,8 +107,14 @@ body{
   margin-bottom: 5em;
 }
 
+#us h5{
+}
+
 #us img{
   margin-bottom: 5em;
+}
+
+.profile:hover{
 }
 
 .footer{
